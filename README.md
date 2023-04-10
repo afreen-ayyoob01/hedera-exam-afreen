@@ -1,4 +1,4 @@
-# Hedera Hashgraph Services for Beginner
+# Hedera Hashgraph Services 
 
 This project is a Node.js based application that provides a set of scripts to interact with the Hedera Hashgraph network. The scripts are designed to perform various actions such as creating new accounts, transferring HBAR, querying account information, creating and managing fungible tokens, multi-signature transactions, consensus, scheduling transactions, and interacting with smart contracts.
 
@@ -8,9 +8,8 @@ This project is a Node.js based application that provides a set of scripts to in
 ### Prerequisites
 
 
-- Node.js (v14 or higher) 
+- Node.js (stable version v18.15.0) 
 - Hedera Hashgraph account 
-- Hedera Hashgraph Testnet account (for testing) 
 
 ### Installation
 
@@ -30,7 +29,7 @@ Here are the available scripts:
 
 - `node account.js`: Create new accounts 
 
-### Fungible Token Scripts
+### Token_Services Scripts
 
 - `node createToken.js`: Create a new fungible token 
 - `node func_calling.js`: Calling all other functions from associate_transfer.js and pause_unpause.js file
@@ -43,14 +42,9 @@ Here are the available scripts:
 ### Consensus Scripts 
 - `node consensus.js`: Perform a consensus transaction 
 
-### Scheduled Transactions Scripts 
+### Scheduled_txn Scripts 
 - `node schedule.js`: Schedule a transaction to generate schedule id 
 - `node schedulesign.js`: Sign a scheduled transaction
 
-### Smart Contract Scripts 
+### Smart_Contract Scripts 
 - `node smartcontract.js`: Interact with a smart contract 
-
-## License 
-
-This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
-
